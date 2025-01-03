@@ -94,3 +94,20 @@ This command use to check the two versions/commit id's difference.
 
 ![git-diff-cmd](https://github.com/user-attachments/assets/3570c00c-ca64-4e8d-a3f8-94e698d5b08d)
 
+
+## Set Git config global file:
+In real Industry on a single project different uses works, So we set "config" settings for our laptop as Auther name & Email. This info shown in commit history.
+
+Set user name for git:
+
+     git config --global user.name "PratikShinde"
+
+![git-config-set](https://github.com/user-attachments/assets/121feb0a-3e82-4335-8fc9-50c6f67a9e02)
+
+Set user email for git:
+
+     git config --global user.email "pratikshinde@abc.com"
+
+![image](https://github.com/user-attachments/assets/f1b53eff-a5de-49e6-9938-c7bb8d27fb5a)
+
+     
