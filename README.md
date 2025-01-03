@@ -135,3 +135,16 @@ Git Alias is use to give nickname to any Git command, That Nickname only save in
 
 ![Git-Alias-cmd](https://github.com/user-attachments/assets/b8edb55f-abe7-461e-b23e-c063284fa6d0)
 
+
+## .gitignore file:
+For some project also need other files only commit need means not need for taking versions/commit id of that files.
+
+That file only need to push to GitHub(SCM) as it is not need of taking any commit id. So that other files we can put in .gitignore file.
+
+    vim .gitignore 
+
+![gitihnore-cmd](https://github.com/user-attachments/assets/56e687e5-c692-4286-96db-4b163ca699df)
+
+Now all remaining files i put in the .gitignore file
+![cat-for-.gitignore-cmd](https://github.com/user-attachments/assets/6939f5ff-6851-44f0-876c-3e0849337616)
+
