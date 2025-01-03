@@ -95,7 +95,7 @@ This command use to check the two versions/commit id's difference.
 ![git-diff-cmd](https://github.com/user-attachments/assets/3570c00c-ca64-4e8d-a3f8-94e698d5b08d)
 
 
-## Set Git config global file:
+## Set Git Config global file:
 In real Industry on a single project different uses works, So we set "config" settings for our laptop as Auther name & Email. This info shown in commit history.
 
 **Set user name for git:**
@@ -108,16 +108,16 @@ In real Industry on a single project different uses works, So we set "config" se
 
      git config --global user.email "pratikshinde@abc.com"
 
-![image](https://github.com/user-attachments/assets/f1b53eff-a5de-49e6-9938-c7bb8d27fb5a)
+![git-useremail](https://github.com/user-attachments/assets/f1b53eff-a5de-49e6-9938-c7bb8d27fb5a)
 
 
 **Show all set on configs file:**
 
      git config --global -l
 
-![image](https://github.com/user-attachments/assets/02b89a0a-1490-4685-b4ad-def1a722453d)
+![Git-config-global-show](https://github.com/user-attachments/assets/02b89a0a-1490-4685-b4ad-def1a722453d)
 
-**Also we can save login information of GitHub Account**
+**Also we can save login information of GitHub Account:**
 
 Set user.email means our GitHub account email id:
   
@@ -126,3 +126,12 @@ Set user.email means our GitHub account email id:
 Set user.name means our GitHub account password:
 
       git config --global user.name "______"  
+
+
+## Alias: [Nickname for command]
+Git Alias is use to give nickname to any Git command, That Nickname only save in Local laptop,This is only for Local laptop settings.
+
+    git config --global alias.pns "log --oneline"
+
+![Git-Alias-cmd](https://github.com/user-attachments/assets/b8edb55f-abe7-461e-b23e-c063284fa6d0)
+
