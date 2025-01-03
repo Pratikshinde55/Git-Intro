@@ -164,4 +164,24 @@ All remaing files are present in working area but that are commited through .git
 
 ![git-status-cmd](https://github.com/user-attachments/assets/991c15ea-5899-4097-bcd2-085fc567ff36)
 
+
+## Git Command for multiple files add & commit:
+
+**To add all files in working area to Staging area then use command:(. means current location)**
+
+     git add .
+
+![Git-add-all](https://github.com/user-attachments/assets/bb338d6c-0f7a-49d2-a5dd-ad36c199a35b)
+
+**To commit all files in "Staging Area" use command:**
+
+     git commit . -m "all files are commited"
+
+![Git-commit-all](https://github.com/user-attachments/assets/d90bc06c-719a-4295-8e31-7cf2f2c49ff4)
+
+**To Remove/delete all files from commit, Staging area, working area use command:**
+
+     git rm -r .
+
+![git-rm-r-all-cmd](https://github.com/user-attachments/assets/867dfe8d-6346-4550-9036-77c471c749d0)
      
