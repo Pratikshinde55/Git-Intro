@@ -185,3 +185,36 @@ All remaing files are present in working area but that are commited through .git
 
 ![git-rm-r-all-cmd](https://github.com/user-attachments/assets/867dfe8d-6346-4550-9036-77c471c749d0)
      
+
+
+## Git Branch:
+The Branch also known as timeline.
+
+There are two braches in Git & GitHub:
+1. Master/Main Branch
+2. Feature Branch
+
+Main/Master Branch which is connected to production/QA env for deployment.
+
+Feature Branch which developer update code/build code/test code & also updating version of code.
+
+**git branch is command for show all lists of branches:**
+
+     git branch
+
+![Git-Branch-list](https://github.com/user-attachments/assets/e59b0038-3105-4ad9-b3fd-eddbc48b12ad)
+
+**Create Feature branch in Git:**
+
+     git branch <Branch_Name>
+
+![Git-Branch-create](https://github.com/user-attachments/assets/dd628276-ba85-44c5-abce-e277263c498e)
+
+**Switch to other Branch in Git use this command:**
+
+     git checkout <Branch_Name>
+
+![Git-Checkout-cmd](https://github.com/user-attachments/assets/7e5ca740-bc58-456a-a4ee-17bdf597ba1b)
+
+
+     
