@@ -54,24 +54,24 @@ git commit command is use for taking snapshot/backup of specific file with messa
 ## Git commit ID:
 Whenever we commit file that file give commit Id 
 
-    git show
-
 **git show command show latest commit & all changes in files during commit.& here HEAD means latest commit.** 
+
+    git show
 
 ![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
 
-    git log 
+**git log command show all the commits with commit Id's & commit message also show. HEAD: We can commit multiple times So, that file has multiple versions/commit ID but, Git automatically give latest commited 
+file nickname as "HEAD-Master"**
 
-**git log command show all the commits with commit Id's & commit message also show. HEAD: We can commit multiple times So, that file has multiple versions/commit ID but, Git automatically give latest commited file nickname as "HEAD-Master"**
+    git log 
 
 ![image](https://github.com/user-attachments/assets/bed83304-696b-4576-8fc7-ea3592624177)
 
-    git log --oneline
-
 **git log --oneline command show short info of commit ID's.**
 
-![image](https://github.com/user-attachments/assets/3559e8ad-7ad8-40ff-ae75-504190ca2619)
+    git log --oneline
 
+![image](https://github.com/user-attachments/assets/3559e8ad-7ad8-40ff-ae75-504190ca2619)
 
 ## How to remove or restore a file from Staging Area to Working Area:
 This command is used to remove the staged file & stop tracking on that file.
