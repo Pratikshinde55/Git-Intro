@@ -210,7 +210,7 @@ Feature Branch which developer update code/build code/test code & also updating 
 
 ![Git-Branch-create](https://github.com/user-attachments/assets/dd628276-ba85-44c5-abce-e277263c498e)
 
-**Switch to other Branch in Git use this command:**
+**Switch to other Branch in Git use this command: Here we go in dev1 branch**
 
      git checkout <Branch_Name>
 
