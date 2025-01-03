@@ -220,4 +220,28 @@ Feature Branch which developer update code/build code/test code & also updating 
 
 ![image](https://github.com/user-attachments/assets/46fc1776-c139-4c56-a716-bba47b413c2d)
 
-     
+
+**We can also at same time create a branch & switched to that branch by using single command:**
+
+     git checkout -b ps1
+
+![image](https://github.com/user-attachments/assets/a5be5b3b-e450-4cc1-90f0-f8604a4b13d2)
+
+- Note:
+
+  Create Feature branch from master branch only.
+
+**Delete Feature branch in Git:**
+
+    git branch -d dev1
+
+![Git-branch-delete-d](https://github.com/user-attachments/assets/6c14f557-cdb9-426d-bd60-24cafdc55fe9)
+
+- Note:
+
+  "-d" means delete branch and "-D" means delete branch forecefully
+
+![git-branch-delete-D](https://github.com/user-attachments/assets/0b2461e7-b8fe-4bde-b4db-e85fbb3f90e6)
+
+
+
