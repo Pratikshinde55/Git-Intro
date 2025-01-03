@@ -76,11 +76,12 @@ Whenever we commit file that file give commit Id
 ## How to remove or restore a file from Staging Area to Working Area:
 This command is used to remove the staged file & stop tracking on that file.
 
-     git restore --staged <File_Name>
+    git restore --staged <File_Name>
+    
+We want remove file from staging area use command:
 
-If not any commit done but we want remove that file staging area so we use command is:
+    git rm --cached <File_Name> 
 
-     git rm --cached <File_Name> 
-
+![git-rm-cached-cmd](https://github.com/user-attachments/assets/c629ad3a-cbc1-4f8c-b171-bc1b3e68dbfc)
 
 .
