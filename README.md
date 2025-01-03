@@ -10,12 +10,16 @@ There three types of Areas in Git:
 2. Staging Area/ Tracking Area
 3. Commit Area
 
+![image](https://github.com/user-attachments/assets/c39ffb55-8d81-4b0e-806c-1cc3c6503778)
+
 In Workspace 1st we need to Initialize Repository(git init) means directory, & then we "add"(Staging Area) any file that we want to commit. Without Initialize repo & without add file we unable to commit.
 
 ## Initialize Repository: [git init command]
 This command for initialize repo
 
     git init
+    
+![git-init](https://github.com/user-attachments/assets/6fbc6e9b-66b7-41c5-ba14-2475c33f8321)
 
 To check Status of update we use git status command
 
