@@ -216,5 +216,8 @@ Feature Branch which developer update code/build code/test code & also updating 
 
 ![Git-Checkout-cmd](https://github.com/user-attachments/assets/7e5ca740-bc58-456a-a4ee-17bdf597ba1b)
 
+- When we create a Feature Branch then all data/commit id's in Master Branch come to Feature branch:
+
+![image](https://github.com/user-attachments/assets/46fc1776-c139-4c56-a716-bba47b413c2d)
 
      
