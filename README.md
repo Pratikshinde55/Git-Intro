@@ -148,3 +148,20 @@ That file only need to push to GitHub(SCM) as it is not need of taking any commi
 Now all remaining files i put in the .gitignore file
 ![cat-for-.gitignore-cmd](https://github.com/user-attachments/assets/6939f5ff-6851-44f0-876c-3e0849337616)
 
+**Now add .gitignore file in staging area:**
+
+    git add .gitignore
+
+![gitignore-file-add](https://github.com/user-attachments/assets/1f243fde-e860-4a34-9952-a768125289ca)
+
+**Now commit .gitignorefile**
+
+     git commit .gitignore -m "gitignore file is commited"
+
+![commit-gitignore-file](https://github.com/user-attachments/assets/175b9d95-f92a-42d9-bad3-fed6e93df5e9)
+
+All remaing files are present in working area but that are commited through .gitignore file, So now our workspace is very Clean.
+
+![git-status-cmd](https://github.com/user-attachments/assets/991c15ea-5899-4097-bcd2-085fc567ff36)
+
+     
