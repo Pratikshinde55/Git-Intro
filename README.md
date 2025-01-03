@@ -244,4 +244,14 @@ Feature Branch which developer update code/build code/test code & also updating 
 ![git-branch-delete-D](https://github.com/user-attachments/assets/0b2461e7-b8fe-4bde-b4db-e85fbb3f90e6)
 
 
+## Merge: [merger branch]
+If the final version done or code done in feature branch & now we merge that branch data to main/master branch.
 
+Merge also called as merge statergy or fast forwarding.
+
+- Note:
+
+Merge also done on master branch, It means in master branch we able to use merge.
+
+    git merge ps1
+    
