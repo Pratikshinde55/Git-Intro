@@ -56,7 +56,7 @@ Whenever we commit file that file give commit Id
 
      git show
 
-**git show command show latest commit & all changes in files during commit.**
+**git show command show latest commit & all changes in files during commit.& here HEAD means latest commit**
 
 ![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
 
@@ -71,3 +71,7 @@ Whenever we commit file that file give commit Id
 **git log --oneline command show short info of commit ID's.**
 
 ![image](https://github.com/user-attachments/assets/3559e8ad-7ad8-40ff-ae75-504190ca2619)
+
+
+## How to remove or restore a file from Staging Area to Working Area:
+
