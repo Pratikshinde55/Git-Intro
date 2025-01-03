@@ -36,10 +36,20 @@ Command for checking lists for files that are present in Staging Area:
 
     git ls-files
 
+![git-ls-files-command](https://github.com/user-attachments/assets/564ac0b8-ed3e-4162-9f17-0c643290b945)
+
+- When we add file is staging area it means that file is tracked, when any change happen in that file we see by using git status command
+
+       git status
+
+![git-status-for-tracking-show](https://github.com/user-attachments/assets/0a97fd2e-17c3-40f0-828c-a2566e26f8f5)
+
+
 ## git commit command:
 git commit command is used for taking snapshot/backup of specific file with message.
 
     git commit <File_Name> -m "This is commit message"
+
 
 ## Git commit ID:
 Whenever we commit file that file give commit Id 
