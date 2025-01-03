@@ -86,4 +86,11 @@ We want remove file from staging area use command:
 
 ![git-rm-cached-cmd](https://github.com/user-attachments/assets/c629ad3a-cbc1-4f8c-b171-bc1b3e68dbfc)
 
-.
+
+## git diff command:
+This command use to check the two versions/commit id's difference.
+
+    git diff <commit_id>  <commit_id>
+
+![git-diff-cmd](https://github.com/user-attachments/assets/3570c00c-ca64-4e8d-a3f8-94e698d5b08d)
+
