@@ -54,19 +54,19 @@ git commit command is use for taking snapshot/backup of specific file with messa
 ## Git commit ID:
 Whenever we commit file that file give commit Id 
 
-   git show
+     git show
 
 git show command show latest commit & all changes in files during commit.
 
 ![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
 
-   git log 
+     git log 
 
 git log command show all the commits with commit Id's & commit message also show.
 
 ![image](https://github.com/user-attachments/assets/bed83304-696b-4576-8fc7-ea3592624177)
 
-   git log --oneline
+     git log --oneline
 
 git log --oneline command show short info of commit ID's.
 
