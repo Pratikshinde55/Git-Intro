@@ -40,7 +40,7 @@ Command for checking lists for files that are present in **Staging Area**:
 
 **When we add file is staging area it means that file is tracked, when any change happen in that file we see by using git status command:**
 
-       git status
+    git status
 
 ![git-status-for-check-staging](https://github.com/user-attachments/assets/6981e6a2-7435-472c-a229-838d116cf579)
 
@@ -54,19 +54,19 @@ git commit command is use for taking snapshot/backup of specific file with messa
 ## Git commit ID:
 Whenever we commit file that file give commit Id 
 
-     git show
+    git show
 
 **git show command show latest commit & all changes in files during commit.& here HEAD means latest commit.** 
 
 ![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
 
-     git log 
+    git log 
 
 **git log command show all the commits with commit Id's & commit message also show. HEAD: We can commit multiple times So, that file has multiple versions/commit ID but, Git automatically give latest commited file nickname as "HEAD-Master"**
 
 ![image](https://github.com/user-attachments/assets/bed83304-696b-4576-8fc7-ea3592624177)
 
-     git log --oneline
+    git log --oneline
 
 **git log --oneline command show short info of commit ID's.**
 
@@ -100,20 +100,20 @@ In real Industry on a single project different uses works, So we set "config" se
 
 **Set user name for git:**
 
-     git config --global user.name "PratikShinde"
+    git config --global user.name "PratikShinde"
 
 ![git-config-set](https://github.com/user-attachments/assets/121feb0a-3e82-4335-8fc9-50c6f67a9e02)
 
 **Set user email for git:**
 
-     git config --global user.email "pratikshinde@abc.com"
+    git config --global user.email "pratikshinde@abc.com"
 
 ![git-useremail](https://github.com/user-attachments/assets/f1b53eff-a5de-49e6-9938-c7bb8d27fb5a)
 
 
 **Show all set on configs file:**
 
-     git config --global -l
+    git config --global -l
 
 ![Git-config-global-show](https://github.com/user-attachments/assets/02b89a0a-1490-4685-b4ad-def1a722453d)
 
@@ -121,11 +121,11 @@ In real Industry on a single project different uses works, So we set "config" se
 
 Set user.email means our GitHub account email id:
   
-      git config --global user.email "______"  
+    git config --global user.email "______"  
 
 Set user.name means our GitHub account password:
 
-      git config --global user.name "______"  
+    git config --global user.name "______"  
 
 
 ## Alias: [Nickname for Git command]
