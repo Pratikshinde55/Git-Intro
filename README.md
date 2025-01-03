@@ -116,3 +116,13 @@ In real Industry on a single project different uses works, So we set "config" se
      git config --global -l
 
 ![image](https://github.com/user-attachments/assets/02b89a0a-1490-4685-b4ad-def1a722453d)
+
+**Also we can save login information of GitHub Account**
+
+Set user.email means our GitHub account email id:
+  
+      git config --global user.email "______"  
+
+Set user.name means our GitHub account password:
+
+      git config --global user.name "______"  
