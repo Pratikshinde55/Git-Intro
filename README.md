@@ -30,6 +30,8 @@ git add command is command used to add file in "Staging Area" & that file is tra
 
     git add <File_Name>
 
+![git-add-command](https://github.com/user-attachments/assets/c432c50d-5a35-47da-b1b6-c2cf6e784d1c)
+
 Command for checking lists for files that are present in Staging Area:
 
     git ls-files
