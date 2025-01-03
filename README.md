@@ -244,7 +244,7 @@ Feature Branch which developer update code/build code/test code & also updating 
 ![git-branch-delete-D](https://github.com/user-attachments/assets/0b2461e7-b8fe-4bde-b4db-e85fbb3f90e6)
 
 
-## Merge: [merger branch]
+## Merge: [git merge branch]
 If the final version done or code done in feature branch & now we merge that branch data to main/master branch.
 
 Merge also called as merge statergy or fast forwarding.
@@ -253,5 +253,29 @@ Merge also called as merge statergy or fast forwarding.
 
 Merge also done on master branch, It means in master branch we able to use merge.
 
-    git merge ps1
+    git merge <Branch_Name>
     
+![git-merge-cmd](https://github.com/user-attachments/assets/8ddfc0b7-c25d-4f3f-b1a3-edc07d65de9f)
+
+ - After merge all data means commit's in feature branch comes to Master/Main branch.
+   
+![image](https://github.com/user-attachments/assets/2b2c71ff-2dac-450a-bb36-db88adf2d6f3)
+
+
+## ort strategy:
+This is like "Recursion" type.
+
+When we make older commit ID as "HEAD" & from that HEAD master branch create new feature branch then we see difference while "merge".
+
+    git checkout <commit_id>
+
+
+## Amend:
+"--amend" is used when we commit the file & the message(-m) was wrote incorrect or we want modify commit message without changing file name.
+
+    git commit --amend -m "correct mess"
+
+
+**Recheable Node: The node which is use, node means version/commit id. & Unrecheable Node: When we use "amend" then new version launch with new message, Then older node version/commit ID become Unrecheable.**
+
+    git reflog
