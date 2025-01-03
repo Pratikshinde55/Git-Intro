@@ -45,7 +45,7 @@ When we add file is staging area it means that file is tracked, when any change 
 ![git-status-for-check-staging](https://github.com/user-attachments/assets/6981e6a2-7435-472c-a229-838d116cf579)
 
 ## git commit command:
-git commit command is used for taking snapshot/backup of specific file with message.
+git commit command is use for taking snapshot/backup of specific file with message.
 
     git commit <File_Name> -m "This is commit message"
 
