@@ -128,7 +128,7 @@ Set user.name means our GitHub account password:
       git config --global user.name "______"  
 
 
-## Alias: [Nickname for command]
+## Alias: [Nickname for Git command]
 Git Alias is use to give nickname to any Git command, That Nickname only save in Local laptop,This is only for Local laptop settings.
 
     git config --global alias.pns "log --oneline"
