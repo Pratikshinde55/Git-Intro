@@ -77,7 +77,9 @@ Whenever we commit file that file give commit Id
 This command is used to remove the staged file & stop tracking on that file.
 
     git restore --staged <File_Name>
-    
+
+![git-restore-staged-cmd](https://github.com/user-attachments/assets/fc37b81a-0056-4bb4-a46c-037e920c32a3)
+
 We want remove file from staging area use command:
 
     git rm --cached <File_Name> 
