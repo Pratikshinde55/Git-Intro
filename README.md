@@ -56,13 +56,13 @@ Whenever we commit file that file give commit Id
 
      git show
 
-**git show command show latest commit & all changes in files during commit.& here HEAD means latest commit**
+**git show command show latest commit & all changes in files during commit.& here HEAD means latest commit.** 
 
 ![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
 
      git log 
 
-**git log command show all the commits with commit Id's & commit message also show.**
+**git log command show all the commits with commit Id's & commit message also show. HEAD: We can commit multiple times So, that file has multiple versions/commit ID but, Git automatically give latest commited file nickname as "HEAD-Master"**
 
 ![image](https://github.com/user-attachments/assets/bed83304-696b-4576-8fc7-ea3592624177)
 
@@ -74,4 +74,13 @@ Whenever we commit file that file give commit Id
 
 
 ## How to remove or restore a file from Staging Area to Working Area:
+This command is used to remove the staged file & stop tracking on that file.
 
+     git restore --staged <File_Name>
+
+If not any commit done but we want remove that file staging area so we use command is:
+
+     git rm --cached <File_Name> 
+
+
+.
