@@ -42,20 +42,29 @@ Command for checking lists for files that are present in Staging Area:
 
        git status
 
-![git-status-for-tracking-show](https://github.com/user-attachments/assets/0a97fd2e-17c3-40f0-828c-a2566e26f8f5)
-
+![git-status-for-check-staging](https://github.com/user-attachments/assets/6981e6a2-7435-472c-a229-838d116cf579)
 
 ## git commit command:
 git commit command is used for taking snapshot/backup of specific file with message.
 
     git commit <File_Name> -m "This is commit message"
 
+![image](https://github.com/user-attachments/assets/aeef8adb-bad3-4c81-9087-3de5060dbe58)
 
 ## Git commit ID:
 Whenever we commit file that file give commit Id 
 
    git show
 
+- git show command show latest commit & all changes in files during commit.
+![Git-show-command](https://github.com/user-attachments/assets/9d193379-fa9a-4fdd-a490-3d502742296a)
+
    git log 
 
+- git log command show all the commits with commit Id's & commit message also show
+![image](https://github.com/user-attachments/assets/bed83304-696b-4576-8fc7-ea3592624177)
+
    git log --oneline
+
+- git log --oneline command show short info of commit ID's
+![image](https://github.com/user-attachments/assets/3559e8ad-7ad8-40ff-ae75-504190ca2619)
